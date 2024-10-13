@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+    margin: 0;
+    background-color: white;
+    color: black;
+    
+}
+
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color:#9ee89f;
+}
+.navibar-left{
+    padding-left: 10px;
+}
+.logo-image{
+    height: 50px;
+    width: 150px;
+    padding: auto;
+}
+.navibar-right{
+    padding-right: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.a-element{
+    padding: 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+
+}   
+.home{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 100vh;
+    padding: 20px;
+   
+}
+.home-left{
+    width: 60vw;
+    
+}
+.home-right{
+    width: 40vw;
+}
+.home-h1{
+    font-family: "Ubuntu", sans-serif;
+    color: green;
+    letter-spacing: 2px;
+    font-size: 35px;
+    font-style: italic;
+    font-weight: bolder;
+}
+.home-p1{
+    font-family: "Encode Sans", sans-serif;
+    font-size: 16px;
+    word-spacing: 1.25px;
+
+    }
+.h1-paragraph{
+    font-family: "Ubuntu", sans-serif;
+    font-size: 20px;
+    word-spacing: 2px;
+    color: green;
+
+}
+.profile{
+    height: 550px;
+    width: 450px;
+    padding: 100px;
+    border-radius: 70%;
+  
+}
+
+
+.skills-known{
+    padding: 30px;
+    text-align: center;
+    background-color: rgb(245, 240, 240);
+    height: 110vh;
+
+}
+.skills-header{
+    font-family: "Ubuntu", sans-serif;
+    color: green;
+    letter-spacing: 3px;
+    font-size: 40px;
+    font-style: italic;
+   
+}
+.Skill-cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;    
+}
+
+.Skill-card{
+    border: rgb(128, 117, 0) solid 2px;
+    margin: 40px;
+    padding: 25px;
+    width: 350px;
+    background-color: rgb(229, 213, 160);
+
+}
+.box {
+    width: 350px;
+    margin: 40px;
+    padding: 25px;
+    background-color: #f2eac0;
+    cursor: pointer;
+    height: auto;
+    border: rgb(128, 117, 0) solid 2px;
+    margin: 40px;
+}
+.skill-logo{
+    height: 50px;
+    background-color:#f2eac0 ;
+}
+.box:hover {
+    background-color: #1ed59b;
+}
+.skill-name{
+ font-family: "Montserrat", sans-serif;
+ font-size: 30px;
+ color: red;
+ 
+}
+.para-content{
+ font-family: "Encode Sans", sans-serif;
+ font-size: 16px;
+ 
+}
+.contact{
+    text-align: center;
+}
+.contact-h1{
+    font-family: "Ubuntu", sans-serif;
+    color: green;
+    letter-spacing: 3px;
+    font-size: 40px;
+    font-style: italic; 
+}
+.contact-info{
+    font-family: "Montserrat", sans-serif;
+    font-size: 25px; 
+}
+.social-icon-img{
+    height: 40px;
+    padding: 10px;
+}
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <div class="navibar-left">
+            <img class="logo-image" src="https://res.cloudinary.com/dzf2z3wfq/image/upload/v1728754512/oie_J8XoHCbIvXzZ_ctq5gi.png" alt="Logo name">
+        </div>
+        <div class="navibar-right">
+            <a class="a-element">Home</a>
+            <a class="a-element">About</a>
+            <a class="a-element" href="#skills">Skills</a>
+            <a class="a-element" href="#contact">Contact</a>
+        </div>
+    </div>
+    <div class="home">
+         <div class="home-left">
+        <h2 class="home-h1">BOLEM KANAKA VARAPRASAD</h2>
+        <p class="home-p1">As a dedicated Software Tester, I bring a comprehensive skill set that spans various testing methodologies and technologies.
+             My expertise includes: </p><h1 class="h1-paragraph"> Manual Testing:</h1> <p class="home-p1">Proficient in designing test cases, executing tests, and ensuring quality through rigorous testing processes. I focus on identifying bugs and enhancing user experience.
+             <h1 class="h1-paragraph"> Automation Testing: </h1> <p class="home-p1"> Experienced in developing and maintaining automated test scripts using tools like Selenium and TestNG, which streamline testing processes and improve efficiency.</p>
+             <h1 class="h1-paragraph"> API Testing: </h1>  <p class="home-p1">Skilled in testing RESTful and SOAP APIs, utilizing tools such as Postman and RestAssured to validate functionality, performance, and security.</p>
+             <h1 class="h1-paragraph"> Database Testing: </h1> <p class="home-p1">Competent in writing SQL queries to validate data integrity and perform back-end testing, ensuring that the database operations align with business requirements. </p>
+             <h1 class="h1-paragraph"> Web Technologies: </h1> <p class="home-p1"> Familiar with HTML, CSS, and JavaScript, enabling me to understand web applications better and enhance the testing process from a user perspective.</p>
+             <h1 class="h1-paragraph">Core Java: </h1> <p class="home-p1">Strong foundation in Java programming, which aids in developing automated test scripts and understanding application architecture. </p>
+             <p class="home-p1">My approach is detail-oriented, focusing on delivering high-quality software solutions. I am passionate about leveraging my skills to contribute to the success of development teams and enhance product reliability.</p>
+        </div>
+        <div class="home-right">
+            <img class="profile" src="https://res.cloudinary.com/dzf2z3wfq/image/upload/v1728674065/Media_26_k7iqui.jpg" alt="my logo">
+        </div>
+    </div>
+    <div class="skills-known" id="skills">
+        <h1 class="skills-header">Professional Skills : </h1>
+         <div class="Skill-cards">
+            <div  class="box" onclick="window.location.href='https://www.javatpoint.com/manual-testing'" class="Skill-card">
+            <h1 class="skill-name">Manual Testing</h1>
+            <img src="https://res.cloudinary.com/dzf2z3wfq/image/upload/v1728833921/manual_testing_v5lpl2.png" class="skill-logo">
+            <p class="para-content">Proficient in designing test cases, executing tests, and ensuring quality through rigorous testing processes. I focus on identifying bugs and enhancing user experience.</p>
+         </div>
+         <div  class="box" onclick="window.location.href='https://www.javatpoint.com/automation-testing'" class="Skill-card">
+            <h1 class="skill-name">Automation Testing</h1>
+            <img src="https://res.cloudinary.com/dzf2z3wfq/image/upload/v1728833936/Automation_Testing_kflfj6.png" class="skill-logo">
+             <p class="para-content">Experienced in developing and maintaining automated test scripts using tools like Selenium and TestNG, which streamline testing processes and improve efficiency.</p>
+         </div>
+         <div  class="box" onclick="window.location.href='https://www.javatpoint.com/postman'" class="Skill-card">
+             <h1 class="skill-name">API Testing</h1>
+             <img src="https://res.cloudinary.com/dzf2z3wfq/image/upload/v1728833949/API_Testing_pvdn0m.png" class="skill-logo">
+             <p class="para-content">Skilled in testing RESTful and SOAP APIs, utilizing tools such as Postman and RestAssured to validate functionality, performance, and security.</p>
+         </div>
+         <div  class="box" onclick="window.location.href='https://www.javatpoint.com/java-tutorial'" class="Skill-card">
+            <h1 class="skill-name">Java Development</h1>
+            <img src="https://res.cloudinary.com/dzf2z3wfq/image/upload/v1728833958/data_base_testing_n6kn2v.png" class="skill-logo">
+            <p class="para-content">Strong foundation in Java programming, which aids in developing automated test scripts and understanding application architecture..</p>
+         </div>
+         <div  class="box" onclick="window.location.href='https://www.geeksforgeeks.org/web-technology/'" class="Skill-card">
+            <h1 class="skill-name">Web Technology</h1>
+            <img src="https://res.cloudinary.com/dzf2z3wfq/image/upload/v1728833979/web_technology_saalib.png" class="skill-logo">
+             <p class="para-content">Familiar with HTML, CSS, and JavaScript, enabling me to understand web applications better and enhance the testing process from a user perspective.</p>
+         </div>
+         <div  class="box" onclick="window.location.href='https://www.javatpoint.com/database-testing'" class="Skill-card">
+             <h1 class="skill-name">Data Base Testing</h1>
+             <img src="https://res.cloudinary.com/dzf2z3wfq/image/upload/v1728833969/Core_java_c5qjuh.png" class="skill-logo">
+             <p class="para-content">Competent in writing SQL queries to validate data integrity and perform back-end testing, ensuring that the database operations align with business requirements.</p>
+         </div>
+        </div>
+    </div>
+    <div class="contact" id="contact">
+        <h1 class="contact-h1">Contact Information</h1>
+        <div class="contact-info">
+            <p> BOLEM KANAKA VARAPRASAD</p>
+            <P>prasadbolem98@gmail.com</P>
+            <p>+91 9666181066</p>
+        </div>
+        <div class="social-icons">
+            <div class="social-icon">
+                <a href="https://www.instagram.com/prasadbolem?igsh=MzNlNGNkZWQ4Mg==">
+                    <img src="https://res.cloudinary.com/dzf2z3wfq/image/upload/v1728815836/instagram_2111463_wfavoe.png" class="social-icon-img">
+                </a>
+                <a href="https://www.facebook.com/share/8uEfTUj1n619roFp/">
+                    <img src="https://res.cloudinary.com/dzf2z3wfq/image/upload/v1728815824/facebook_5968764_dpqa3q.png" class="social-icon-img">
+                </a>
+                <a href="https://www.linkedin.com/in/bolem-kanaka-varaprasad-1a6285285?">
+                    <img src="https://res.cloudinary.com/dzf2z3wfq/image/upload/v1728816763/linkedin_3536505_lhaqwa.png" class="social-icon-img">
+                </a>
+                <a href="https://youtu.be/OCTGNLOdfeI?si=KqS80XlUS-0tjysH">
+                    <img src="https://res.cloudinary.com/dzf2z3wfq/image/upload/v1728815947/youtube_3938026_f0xcbr.png" class="social-icon-img">
+                </a>
+                <a href="">
+                    <img src="https://res.cloudinary.com/dzf2z3wfq/image/upload/v1728817066/letter-x_12654263_qcj2vk.png" class="social-icon-img">
+                </a>
+                <a href="">
+                    <img src="https://res.cloudinary.com/dzf2z3wfq/image/upload/v1728815956/telegram_2111646_gd5cfc.png" class="social-icon-img">
+                </a>
+            </div>
+
+
+        </div>
+
+    </div>
+</body>
+</html>
